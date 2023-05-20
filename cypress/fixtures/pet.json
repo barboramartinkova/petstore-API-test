@@ -1,0 +1,16 @@
+{
+  "id": 13,
+  "category": {
+    "id": 1,
+    "name": "Golden retriever"
+  },
+  "name": "Sam",
+  "photoUrls": ["pic url"],
+  "tags": [
+    {
+      "id": 1,
+      "name": "golden"
+    }
+  ],
+  "status": "available"
+}

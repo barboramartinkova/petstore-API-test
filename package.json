@@ -1,0 +1,24 @@
+{
+  "name": "petstore-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:docker": "docker run -it -v $PWD:/e2e -w /e2e -e CYPRESS_VIDEO cypress/included:12.12.0",
+    "cypress:open": "cypress open",
+    "cypress:headless": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barboramartinkova/petstore-API-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barboramartinkova/petstore-API-test/issues"
+  },
+  "homepage": "https://github.com/barboramartinkova/petstore-API-test#readme",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}
